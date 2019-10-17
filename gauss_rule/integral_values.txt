@@ -1,0 +1,20 @@
+f(x) = x integral value for p = 2, n = 5 is 0.25517638872599735.
+
+---------------
+
+f(x) = sqrt(x) integral value for p = -0.5, n = 4 is 1.0.
+f(x) = sqrt(x) integral value for p = -0.5, n = 40 is 1.0.
+
+---------------
+
+f(x) = (1-sin(x))^2 integral value for p = -0.5, n = 5 is 0.024605651269001293.
+f(x) = (1-sin(x))^2 integral value for p = -0.5, n = 50 is 0.02646489762328679.
+f(x) = (1-sin(x))^2 integral value for p = -0.5, n = 100 is 0.026742102035884074.
+
+---------------
+
+f(x) = sqrt(x)/sqrt(sin(x/2) integral value for p = -0.5, n = 2 is 2.5668374319712077.
+f(x) = sqrt(x)/sqrt(sin(x/2) integral value for p = -0.5, n = 10 is 2.7176677680021903.
+
+---------------
+
