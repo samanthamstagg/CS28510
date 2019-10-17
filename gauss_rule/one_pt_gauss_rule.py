@@ -5,19 +5,8 @@
 import numpy as np
 from scipy.integrate import quad
 import math
-from sympy.solvers import solve
 from sympy import *
 from scipy.optimize import fsolve
-
-#ONE-POINT GAUSS RULE: GR_1(f) = w_1*f(x_1)
-#w_1 = integral from a to b of l_1(x)w(x)dx
-
-#weight fn: w(x) = x^p
-
-#integral from a to b of f(x)*x^p*dx = w_g*f(p_g)
-
-### Lengendre Polynomial over the interval [a, b] for j = 1 ###
-#poly = lambda x, a, b: x^1((2*x - a - b)/(b - a))
 
 a = 0
 b = 1
