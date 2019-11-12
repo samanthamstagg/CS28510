@@ -50,11 +50,13 @@ if __name__=='__main__':
 			f = open('integral_values.txt', 'a+')
 		for val in integral_vals:
 			if integral_vals.index(val) != len(integral_vals) - 1:
-				f.write('f(x) = ' + fn + ' integral value for p = ' + str(ps[i]) + ', n = ' + \
-						str(val[0]) + ' is ' + str(val[1]) + '.\n')
+				f.write('f(x) = ' + fn + ' integral value for p = ' + \
+						str(ps[i]) + ', n = ' + str(val[0]) + ' is ' + \
+						str(val[1]) + '.\n')
 			else:
-				f.write('f(x) = ' + fn + ' integral value for p = ' + str(ps[i]) + ', n = ' + \
-						str(val[0]) + ' is ' + str(val[1]) + '.\n\n---------------\n\n')
+				f.write('f(x) = ' + fn + ' integral value for p = ' + \
+						str(ps[i]) + ', n = ' + str(val[0]) + ' is ' + \
+						str(val[1]) + '.\n\n---------------\n\n')
 		f.close()
 		i += 1
 
